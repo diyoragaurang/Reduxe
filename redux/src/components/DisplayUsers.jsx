@@ -1,5 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { removeUser } from "../store/slices/UserSlice";
 
 const DisplayUsers = () => {
   const dispatch = useDispatch();
