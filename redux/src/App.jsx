@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 import UserDetails from './components/UserDetails'
-
-
 const App = () => {
   return (
-   <>
-  <UserDetails/>
-   </>
+    <>
+      <UserDetails/>
     
-  )
-}
+    </>
+  );
+};
 
-export default App
+export default App;
